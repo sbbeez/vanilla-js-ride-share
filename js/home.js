@@ -51,7 +51,7 @@ const fetchCarOwners = async (startFrom, destination) => {
   if (!startFrom && !destination) {
     return [];
   }
-  let URL = `http://localhost:3000/carOwners?`;
+  let URL = `${BASE_URL}/carOwners?`;
   if (startFrom) {
     URL = `${URL}start_from=${startFrom}&`;
   }

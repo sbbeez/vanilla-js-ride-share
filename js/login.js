@@ -24,7 +24,7 @@ const toggleLoginErrorMessages = errors => {
 
 const verifyCredentials = async (username, password) => {
   try {
-    let URL = `http://localhost:3000/commuters?`;
+    let URL = `${BASE_URL}/commuters?`;
     if (Number(username)) {
       URL = `${URL}phone=${username}&password=${password}`;
     } else {

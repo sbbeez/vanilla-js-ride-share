@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:ui": "live-server",
-    "start:server": "json-server db.json --no-cors --watch",
+    "start:server": "json-server db.json -H 0.0.0.0 --no-cors --watch",
     "start": "concurrently --kill-others \"npm run start:ui\" \"npm run start:server\""
   },
   "keywords": [],

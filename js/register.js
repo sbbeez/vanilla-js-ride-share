@@ -50,7 +50,7 @@ const toggleErrors = errors => {
 const registerUser = async values => {
   try {
     delete values.repassword;
-    await fetch("http://localhost:3000/commuters", {
+    await fetch(`${BASE_URL}/commuters`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
