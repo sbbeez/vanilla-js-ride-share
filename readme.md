@@ -21,7 +21,7 @@ Internally, the app starts both UI & Mock server.
 
 - Registeration
 - Login (username can be phone/email)
-- User can search `start from` or `destination` or `both` and view see the list of available rides
+- User can search `start from` or `destination` or `both` and view the list of available rides
 - User can choose the ride & confirm the booking
 - Login status persistence
 - Logout from the App
