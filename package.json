@@ -1,0 +1,19 @@
+{
+  "name": "vanilla-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:ui": "live-server",
+    "start:server": "json-server db.json --no-cors --watch",
+    "start": "concurrently --kill-others \"npm run start:ui\" \"npm run start:server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "json-server": "^0.16.3",
+    "live-server": "^1.2.1"
+  }
+}

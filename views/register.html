@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="../js/register.js"></script>
+  </head>
+  <body
+    onload="if(localStorage.getItem('@login_user_id')){
+      window.location.href = window.location.origin + '/views/home.html';
+    }"
+  >
+    <header>
+      <img
+        src="https://flyclipart.com/thumb2/audi-auto-car-front-model-sport-view-icon-600519.png"
+        class="logo"
+      />
+      <h3>Register To App</h3>
+    </header>
+    <br />
+    <main>
+      <form
+        autocomplete="off"
+        onsubmit="return onRegisterSubmit()"
+        class="card card__form"
+        id="register-form"
+      >
+        <label>Full Name</label>
+        <input
+          type="text"
+          name="fullname"
+          id="fullname"
+          placeholder="enter your firstname & lastname"
+        />
+        <p id="fullname-error" class="form__input-error">
+          Invalid Full Name
+        </p>
+        <label>Email ID</label>
+        <input
+          type="text"
+          name="emailid"
+          id="emailid"
+          placeholder="enter your email ID"
+        />
+        <p id="emailid-error" class="form__input-error">
+          Invalid Email ID
+        </p>
+        <label>Mobile Number</label>
+        <input
+          type="text"
+          name="phone"
+          id="phone"
+          placeholder="enter your 10-digit mobile number"
+        />
+        <p id="phone-error" class="form__input-error">
+          Invalid Mobile Number
+        </p>
+        <label>Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="********"
+        />
+        <p id="password-error" class="form__input-error">
+          Invalid password
+        </p>
+
+        <label>Re-Password</label>
+        <input
+          type="password"
+          name="repassword"
+          id="repassword"
+          placeholder="********"
+        />
+        <p id="repassword-error" class="form__input-error">
+          password doesn't match
+        </p>
+        <br />
+        <p id="register-error" class="error-message"></p>
+        <br />
+        <button type="submit">REGISTER</button>
+      </form>
+      <span class="action-link"
+        >Already have an account?
+        <a onclick="window.history.go(-1); return false;" class="primary__link"
+          >LOGIN NOW</a
+        ></span
+      >
+      <br />
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

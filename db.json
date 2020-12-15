@@ -1,0 +1,162 @@
+{
+  "commuters": [
+    {
+      "id": 1,
+      "fullname": "senthilbalaji ganesn",
+      "emailid": "senthilbalaji.ganesan@hashedin.com",
+      "phone": "9750187663",
+      "password": "senthil@123"
+    },
+    {
+      "fullname": "senthilbalajia",
+      "emailid": "senthi@hash.com",
+      "phone": "1211211211",
+      "password": "senthil",
+      "id": 2
+    },
+    {
+      "fullname": "senthil",
+      "emailid": "senthil@sf.as",
+      "phone": "1231231231",
+      "password": "senthil",
+      "id": 3
+    },
+    {
+      "fullname": "senhi",
+      "emailid": "s@s.as",
+      "phone": "1231231231",
+      "password": "s",
+      "id": 4
+    },
+    {
+      "fullname": "senthil",
+      "emailid": "sdf@sfsd.sd",
+      "phone": "1231231231",
+      "password": "s",
+      "id": 5
+    },
+    {
+      "fullname": "senthilbala",
+      "emailid": "senthil@sfdds.ss",
+      "phone": "1231231231",
+      "password": "senthil",
+      "id": 6
+    },
+    {
+      "fullname": "senthilbalaji ganesan",
+      "emailid": "senthilbalajijndr@gmail.com",
+      "phone": "8610106084",
+      "password": "senthil@123",
+      "id": 7
+    },
+    {
+      "fullname": "senthil",
+      "emailid": "senthil1@gmail.com",
+      "phone": "8610106084",
+      "password": "senthil",
+      "id": 8
+    }
+  ],
+  "carOwners": [
+    {
+      "image_url": "https://image.flaticon.com/icons/png/512/64/64495.png",
+      "name": "Hari haran",
+      "distance": "6 min(s) ago",
+      "car_model": "Polo",
+      "seats_available": 3,
+      "rating": 4.5,
+      "start_from": "Electronic City",
+      "destination": "HSR Layout"
+    },
+    {
+      "image_url": "https://image.flaticon.com/icons/png/512/64/64495.png",
+      "name": "Hari haran",
+      "distance": "6 min(s) ago",
+      "car_model": "Polo",
+      "seats_available": 3,
+      "rating": 4.5,
+      "start_from": "Electronic City",
+      "destination": "Sarjapur"
+    },
+    {
+      "image_url": "https://image.flaticon.com/icons/png/512/64/64495.png",
+      "name": "Hari haran",
+      "distance": "6 min(s) ago",
+      "car_model": "Polo",
+      "seats_available": 3,
+      "rating": 4.5,
+      "start_from": "Electronic City",
+      "destination": "Sarjapur"
+    },
+    {
+      "image_url": "https://image.flaticon.com/icons/png/512/64/64495.png",
+      "name": "Hari haran",
+      "distance": "6 min(s) ago",
+      "car_model": "Polo",
+      "seats_available": 3,
+      "rating": 4.5,
+      "start_from": "Electronic City",
+      "destination": "Sarjapur"
+    },
+    {
+      "image_url": "https://image.flaticon.com/icons/png/512/64/64495.png",
+      "name": "Hari haran",
+      "distance": "6 min(s) ago",
+      "car_model": "Polo",
+      "seats_available": 3,
+      "rating": 4.5,
+      "start_from": "Electronic City",
+      "destination": "Sarjapur"
+    },
+    {
+      "image_url": "https://image.flaticon.com/icons/png/512/64/64495.png",
+      "name": "Hari haran",
+      "distance": "6 min(s) ago",
+      "car_model": "Polo",
+      "seats_available": 3,
+      "rating": 4.5,
+      "start_from": "Electronic City",
+      "destination": "Sarjapur"
+    },
+    {
+      "image_url": "https://image.flaticon.com/icons/png/512/64/64495.png",
+      "name": "Hari haran",
+      "distance": "6 min(s) ago",
+      "car_model": "Polo",
+      "seats_available": 3,
+      "rating": 4.5,
+      "start_from": "Electronic City",
+      "destination": "Sarjapur"
+    },
+    {
+      "image_url": "https://image.flaticon.com/icons/png/512/64/64495.png",
+      "name": "Hari haran",
+      "distance": "6 min(s) ago",
+      "car_model": "Polo",
+      "seats_available": 3,
+      "rating": 4.5,
+      "start_from": "Electronic City",
+      "destination": "Sarjapur"
+    },
+    {
+      "image_url": "https://image.flaticon.com/icons/png/512/64/64495.png",
+      "name": "Naveen",
+      "distance": "6 min(s) ago",
+      "car_model": "Alto",
+      "seats_available": 3,
+      "rating": 4.5,
+      "start_from": "HSR Layout",
+      "destination": "Electronic City"
+    },
+    {
+      "image_url": "https://image.flaticon.com/icons/png/512/64/64495.png",
+      "name": "Vinoth",
+      "distance": "6 min(s) ago",
+      "car_model": "Alto",
+      "seats_available": 3,
+      "rating": 4.5,
+      "start_from": "Whitefield",
+      "destination": "HSR Layout"
+    }
+  ]
+}
