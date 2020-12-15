@@ -14,7 +14,8 @@ Please make sure you have installed Node.js in your system.
 2. Open cmd with CW as project root
 3. Run `npm i` to install the dependencies
 4. Run `npm start` to start the project
-   Internally, the app starts both UI & Mock server.
+
+Internally, the app starts both UI & Mock server.
 
 ## Features
 
