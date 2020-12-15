@@ -26,6 +26,6 @@ Internally, the app starts both UI & Mock server.
 
 ## Tech-Details
 
-- Frontend is developed purely using vanilla-js, html, css and is served using `live-server` [more reference](https://www.npmjs.com/package/live-server).
 - Backend is a mock server created using `json-server` [more reference](https://dev.to/senthilbalajiganesan/create-crud-apis-deploy-in-almost-no-time-4n6h).
+- Frontend is developed purely using vanilla-js, html, css and is served using `live-server` [more reference](https://www.npmjs.com/package/live-server).
 - Both frontend & backend are started in single command which requires `concurrently` [more reference](https://www.npmjs.com/package/concurrently)
